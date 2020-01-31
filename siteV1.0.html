@@ -4,58 +4,88 @@
         <meta charset="utf-8">
         <title>Site V1.0</title>        
         <style>
+/*
             header{ color:forestgreen;}
             article{width:45%;}
+*/
             .container{
+                background-color:tomato;
                 margin:5px;
                 box-shadow:1px 1px black;
+                width: 100%;
+                height: 50px;
+                
             }
-            div#menu{
+            #menud{
                 background-color:tomato;
+                width: 100%;
             }
-            nav{
+            .nav{
                 display:inline;
             }
             li{
+                background-color: aqua;
+                height: 10px;
                 display:inline;
                 padding-top: 30px;
                 padding-left: 10px;
                 padding-bottom:40px;
+                float: left;
+            }
+            ul{         
+                padding:20px;
+                text-align:right;
+                
             }
             a{
+                text-align: center;
+                text-decoration: none;
+            }
+            .esquerda{
+                width: 49%;
+                float: left;
                 
+            }
+            .direita{
+                width:49%;
+                float: right;
+            }
+            p{
+                text-align:justify; 
+            }
+            .imagem{
+                border:1px black;
+                width: 300px;
+                height: 300px;
+                background-color:aqua;
             }
         </style>
     </header>
     <body>
         <header>
-            <nav>Navegação</nav>
-            <br>
-        </header>
-        <div class="container">
+            <div class="container">
             <div id="Menu">
                 <nav>
                     <ul>
-                        <li>
-                            <a>Menu</a>
-                        </li>
-                        <li>
-                            <a>User</a>
-                        </li>
+                        <li><a class="nav">Menu</a></li>
+                        <li><a class="nav">User</a></li>
+                         <li><a class="nav">User</a></li>
                     </ul>        
                 </nav>
+            </div>
+        </div>    
+        </header>
+<!--        ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​-->
+        <div class="direita">
+            <h1>Titulo do texto</h1>
+            <p>
+                A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue estabelecido na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável, que todos possam editar e melhorar. O projeto é definido pelos princípios fundadores. O conteúdo é disponibilizado sob a licença Creative Commons BY-SA e pode ser copiado e reutilizado sob a mesma licença — mesmo para fins comerciais — desde que respeitando os termos e condições de uso.
+            </p>                        
         </div>
-        <div>            
-            Divisão
-            <article>
-                <h1>Atividade 1</h1>
-            </article>
-            <article>
-                <h1>Atividade 2</h1>
-            </article>
-            <article>
-                <h1>Atividade 3</h1>
-            </article>
+<!--        ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​-->
+        <div class="imagem esquerda">
+            
         </div>
+        
     </body>
 </html>
