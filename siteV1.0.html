@@ -16,9 +16,14 @@
                 height: 50px;
                 
             }
-            #menud{
+            #menu{
                 background-color:tomato;
                 width: 100%;
+                position:fixed;
+                width: 100%;
+            }
+            #corpo{
+                padding-top: 80px;
             }
             .nav{
                 display:inline;
@@ -55,9 +60,29 @@
             }
             .imagem{
                 border:1px black;
-                width: 300px;
+                width: 48%;
                 height: 300px;
                 background-color:aqua;
+            }
+            .caixa{
+                width: 80%;
+                margin-top:10px;
+                margin-left:10%;
+                height: 30px;
+                font-size:16px;
+                text-align: center;
+                font-family:cursive;
+                border-top-left-radius:10px;
+                border-bottom-right-radius:10px;
+            }
+            form{
+                padding-top:20px;
+                
+            }
+            .entrar{
+                background-color:forestgreen;
+                color:white;
+                height: 40px;
             }
         </style>
     </header>
@@ -67,7 +92,7 @@
             <div id="Menu">
                 <nav>
                     <ul>
-                        <li><a class="nav">Menu</a></li>
+                        <li><a class="nav"><img src="https://img.icons8.com/dusk/30/000000/home-automation.png"></a></li>
                         <li><a class="nav">User</a></li>
                          <li><a class="nav">User</a></li>
                     </ul>        
@@ -84,7 +109,13 @@
         </div>
 <!--        ​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​-->
         <div class="imagem esquerda">
-            
+            <form>
+                <input class="caixa" type="text" placeholder="usuario">
+                <br>
+                <input class="caixa" type="password" placeholder="Senha">
+                <br>
+                <input class="caixa entrar"type="button" value="entrar">
+            </form>
         </div>
         
     </body>
